@@ -1,6 +1,6 @@
 source "https://rubygems.org" do
 
-  
+
   gem "sinatra", "1.4.4"
   gem "hashie"
   gem "octokit", "~> 2.0"
@@ -10,9 +10,9 @@ source "https://rubygems.org" do
 
 end
 
-group :test do 
+group :test do
   gem "rspec"
-end 
+end
 
 # group :development do
 #   gem "pry"
